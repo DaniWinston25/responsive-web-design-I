@@ -223,3 +223,14 @@ hr{
 
 }
 
+/* New Assignment Code Starts here! */
+@media( max-width 800px){
+ nav a{
+     display: flex;
+     justify-content: center;
+ }
+}
+
+@media( max-width 500px){
+
+}
