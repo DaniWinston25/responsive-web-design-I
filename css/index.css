@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container{
-	max-width: 900px;
+	max-width: 1000px;
     margin: auto;
     background: white;
     padding: 10px;
@@ -224,13 +224,13 @@ hr{
 }
 
 /* New Assignment Code Starts here! */
-@media( max-width 800px){
- nav a{
-     display: flex;
-     justify-content: center;
- }
+@media (max-width 800px){
+.container{
+	display: flex;
+	justify-content:center;
+}
 }
 
-@media( max-width 500px){
-
+@media (max-width 500px){
+ 
 }
