@@ -4,19 +4,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -25,21 +93,34 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
@@ -50,51 +131,51 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
-.container{
+.container {
 	max-width: 1000px;
-    margin: auto;
-    background: white;
-    padding: 10px;
-
+	margin: auto;
+	background: white;
+	padding: 10px;
 }
-.grouped{
-	display:inline-block;
-	max-width: 300px;
-
-}
-.top-content{
+.grouped {
 	display: inline-block;
-
+	max-width: 300px;
 }
-.header{
+.top-content {
+	display: inline-block;
+}
+.header {
 	max-width: 200px;
 	float: center;
-
 }
-title{
+title {
 	color: black;
 	font-size: 16px;
 	font-family: 'sans-serif';
 	box-sizing: border-box;
-
 }
-nav a{
+nav a {
 	text-decoration: none;
 	color: gray;
 	box-sizing: border-box;
@@ -102,13 +183,12 @@ nav a{
 	margin: 10px;
 }
 
-.nav{
+.nav {
 	width: 70%;
 	display: inline-block;
-
 }
 
-.get-started{
+.get-started {
 	display: inline-block;
 	box-sizing: border-box;
 	color: black;
@@ -116,121 +196,94 @@ nav a{
 	padding: 5px;
 	border: 2px solid black;
 	text-align: center;
-	height:30px;
+	height: 30px;
 	width: 100px;
 }
-.great-logo{
+.great-logo {
 	width: 28%;
 	display: inline-block;
-
 }
-.innovations{
-	text-align:center;
+.innovations {
+	text-align: center;
 	padding: 3px;
 }
-h1{
+h1 {
 	color: black;
 	font-size: 50px;
-	font-family: 'Titillium Web',;
+	font-family: 'Titillium Web';
 	display: inline-block;
-	text-align:center;
+	text-align: center;
 	margin: 10px 25px 10px 50px;
 	height: 300px;
 	width: 300px;
 	padding: 10px;
-	
-	
-
 }
-hr{
-	margin:2%;
+hr {
+	margin: 2%;
 }
-.middle-img{
+.middle-img {
 	text-align: center;
-
-	
-	
 }
-.column1{
-	display: inline-block;
-	width: 45%;
-	margin:2%;
-}
-.column2{
+.column-top {
 	display: inline-block;
 	width: 45%;
 	margin: 2%;
-	
-	
 }
-.pull-right{
+
+.column-bottom {
+	display: inline-block;
+	width: 31%;
+	padding: 10px;
+}
+
+.pull-right {
 	text-align: right;
 }
-.fifty{
+.fifty {
 	padding: 2%;
 	width: 48%;
 	display: inline-block;
 	text-align: center;
 }
-.column3{
-	display: inline-block;
-  width: 31%;
-  padding: 10px;
-
-}
-.column4{
-	display: inline-block;
-  width: 31%;
-  padding: 10px;
-	
-}
-.column5{
-	display: inline-block;
-  width: 31%;
-  padding: 10px;
 
 
-}
 
-.address{
+.address {
 	color: black;
 	font-family: "Bangers", cursive;
 	text-align: left;
-
-	
 }
-.street{
-	font:inherit;
+.street {
+	font: inherit;
 	text-align: left;
 	margin: 10px;
-	height:40px;
+	height: 40px;
 	width: 200px;
-
 }
-.contact{
-	font:inherit;
+.contact {
+	font: inherit;
 	height: 40px;
-	width:200px;
+	width: 200px;
 }
-.email{
-	font:inherit;
+.email {
+	font: inherit;
 	height: 40px;
-	width:200px;
+	width: 200px;
 }
 
-.copy{
+.copy {
 	text-align: center;
-
 }
 
 /* New Assignment Code Starts here! */
-@media (max-width 800px){
-.container{
-	display: flex;
-	justify-content:center;
-}
+@media (max-width: 800px) {
+	.container {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		border: 5px solid red;
+	}
 }
 
-@media (max-width 500px){
- 
+@media (max-width: 500px) {
 }
