@@ -85,12 +85,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -104,40 +104,40 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
 h1,
@@ -145,144 +145,154 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
 .container {
-	max-width: 1000px;
-	margin: auto;
-	background: white;
-	padding: 10px;
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 10px;
 }
 .grouped {
-	display: inline-block;
-	max-width: 300px;
+  display: inline-block;
+  max-width: 300px;
 }
 .top-content {
-	display: inline-block;
+  display: inline-block;
 }
 .header {
-	max-width: 200px;
-	float: center;
+  max-width: 200px;
+  float: center;
 }
 title {
-	color: black;
-	font-size: 16px;
-	font-family: 'sans-serif';
-	box-sizing: border-box;
+  color: black;
+  font-size: 16px;
+  font-family: "sans-serif";
+  box-sizing: border-box;
 }
 nav a {
-	text-decoration: none;
-	color: gray;
-	box-sizing: border-box;
-	display: inline-block;
-	margin: 10px;
+  text-decoration: none;
+  color: gray;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
 }
 
 .nav {
-	width: 70%;
-	display: inline-block;
+  width: 70%;
+  display: inline-block;
 }
 
 .get-started {
-	display: inline-block;
-	box-sizing: border-box;
-	color: black;
-	text-decoration: none;
-	padding: 5px;
-	border: 2px solid black;
-	text-align: center;
-	height: 30px;
-	width: 100px;
+  display: inline-block;
+  box-sizing: border-box;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid black;
+  text-align: center;
+  height: 30px;
+  width: 100px;
 }
 .great-logo {
-	width: 28%;
-	display: inline-block;
+  width: 28%;
+  display: inline-block;
 }
 .innovations {
-	text-align: center;
-	padding: 3px;
+  text-align: center;
+  padding: 3px;
 }
 h1 {
-	color: black;
-	font-size: 50px;
-	font-family: 'Titillium Web';
-	display: inline-block;
-	text-align: center;
-	margin: 10px 25px 10px 50px;
-	height: 300px;
-	width: 300px;
-	padding: 10px;
+  color: black;
+  font-size: 50px;
+  font-family: "Titillium Web";
+  display: inline-block;
+  text-align: center;
+  margin: 10px 25px 10px 50px;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
 }
 hr {
-	margin: 2%;
+  margin: 2%;
 }
 .middle-img {
-	text-align: center;
+  text-align: center;
 }
 .column-top {
-	display: inline-block;
-	width: 45%;
-	margin: 2%;
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
 }
 
 .column-bottom {
-	display: inline-block;
-	width: 31%;
-	padding: 10px;
+  display: inline-block;
+  width: 31%;
+  padding: 10px;
 }
 
 .pull-right {
-	text-align: right;
+  text-align: right;
 }
 .fifty {
-	padding: 2%;
-	width: 48%;
-	display: inline-block;
-	text-align: center;
+  padding: 2%;
+  width: 48%;
+  display: inline-block;
+  text-align: center;
 }
-
-
 
 .address {
-	color: black;
-	font-family: "Bangers", cursive;
-	text-align: left;
+  color: black;
+  font-family: "Bangers", cursive;
+  text-align: left;
 }
 .street {
-	font: inherit;
-	text-align: left;
-	margin: 10px;
-	height: 40px;
-	width: 200px;
+  font: inherit;
+  text-align: left;
+  margin: 10px;
+  height: 40px;
+  width: 200px;
 }
 .contact {
-	font: inherit;
-	height: 40px;
-	width: 200px;
+  font: inherit;
+  height: 40px;
+  width: 200px;
 }
 .email {
-	font: inherit;
-	height: 40px;
-	width: 200px;
+  font: inherit;
+  height: 40px;
+  width: 200px;
 }
 
 .copy {
-	text-align: center;
+  text-align: center;
 }
 
 /* New Assignment Code Starts here! */
 @media (max-width: 800px) {
-	.container {
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		border: 5px solid red;
-	}
+  .container {
+    border: 5px solid red;
+  }
+  .great-ideas {
+    display: flex;
+    align-items: center;
+  }
+  nav a {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .pull-right {
+    display: none;
+  }
+  .get-started {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 500px) {
