@@ -276,15 +276,19 @@ hr {
 /* New Assignment Code Starts here! */
 @media (max-width: 800px) {
   .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     border: 5px solid red;
+  }
+  p {
+    flex-wrap: nowrap;
   }
   .great-logo {
     display: flex;
     align-items: center;
     flex-flow: center;
+  }
+  .innovations {
+    font-family: "Titillium Web";
+    align-items: center;
   }
   nav a {
     flex-direction: row;
@@ -303,19 +307,21 @@ hr {
   .container {
     display: flex;
     flex-direction: column;
+    border: 5px solid green;
   }
   nav a {
     flex-direction: column;
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
     align-items: space-around;
   }
   .great-logo {
-    align-items: center;
-    flex-flow: center;
+    position: relative;
   }
   .column-top {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
   }
   .column-bottom {
     display: flex;
