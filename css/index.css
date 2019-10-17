@@ -282,24 +282,21 @@ hr {
     display: flex;
     align-items: center;
   }
-  .innovations {
-    position: absolute;
-  }
+
   nav a {
     flex-direction: row;
     align-items: space-between;
   }
+  .fifty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .pull-right {
     display: none;
   }
-  .fifty {
-    justify-content: center;
-    align-items: center;
-  }
-  .get-started {
-    justify-content: center;
-    align-items: center;
-  }
+
   .great-logo {
     justify-content: flex-end;
   }
@@ -325,10 +322,13 @@ hr {
     flex-direction: column;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    align-items: space-around;
+    justify-content: stretch;
   }
   .great-logo {
     flex-direction: column;
+  }
+  .fifty {
+    display: flex;
   }
   .column-top {
     display: flex;
