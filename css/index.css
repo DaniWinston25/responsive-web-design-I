@@ -278,28 +278,40 @@ hr {
   .container {
     border: 5px solid red;
   }
-  p {
-    flex-wrap: nowrap;
-  }
   .great-logo {
     display: flex;
     align-items: center;
-    flex-flow: center;
   }
   .innovations {
-    font-family: "Titillium Web";
-    align-items: center;
+    position: absolute;
   }
   nav a {
     flex-direction: row;
-    justify-content: space-around;
+    align-items: space-between;
   }
   .pull-right {
     display: none;
   }
+  .fifty {
+    justify-content: center;
+    align-items: center;
+  }
   .get-started {
     justify-content: center;
     align-items: center;
+  }
+  .great-logo {
+    justify-content: flex-end;
+  }
+  .column-top {
+    flex-direction: row;
+  }
+  .column-bottom {
+    flex-direction: row;
+  }
+  .middle-img {
+    justify-content: flex-start;
+    margin: 0;
   }
 }
 
@@ -316,12 +328,11 @@ hr {
     align-items: space-around;
   }
   .great-logo {
-    position: relative;
+    flex-direction: column;
   }
   .column-top {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
   }
   .column-bottom {
     display: flex;
