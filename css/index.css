@@ -159,15 +159,16 @@ h5 {
   padding: 10px;
 }
 .grouped {
-  display: inline-block;
+  display: flex;
   max-width: 300px;
 }
 .top-content {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 .header {
   max-width: 200px;
-  float: center;
+  display: flex;
 }
 title {
   color: black;
@@ -178,45 +179,33 @@ title {
 nav a {
   text-decoration: none;
   color: gray;
-  box-sizing: border-box;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   margin: 10px;
 }
 
 .nav {
-  width: 70%;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 
 .get-started {
-  display: inline-block;
-  box-sizing: border-box;
+  display: flex;
   color: black;
   text-decoration: none;
-  padding: 5px;
   border: 2px solid black;
   text-align: center;
-  height: 30px;
-  width: 100px;
+  box-sizing: border-box;
 }
-.great-logo {
-  width: 28%;
-  display: inline-block;
-}
+
 .innovations {
-  text-align: center;
-  padding: 3px;
+  flex-direction: row;
 }
 h1 {
   color: black;
   font-size: 50px;
-  font-family: "Titillium Web";
-  display: inline-block;
+  display: flex;
   text-align: center;
-  margin: 10px 25px 10px 50px;
-  height: 300px;
-  width: 300px;
-  padding: 10px;
 }
 hr {
   margin: 2%;
@@ -225,25 +214,20 @@ hr {
   text-align: center;
 }
 .column-top {
-  display: inline-block;
-  width: 45%;
-  margin: 2%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .column-bottom {
-  display: inline-block;
+  display: flex;
   width: 31%;
   padding: 10px;
 }
 
-.pull-right {
-  text-align: right;
-}
 .fifty {
-  padding: 2%;
-  width: 48%;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: inherit;
 }
 
 .address {
