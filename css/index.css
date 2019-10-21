@@ -157,45 +157,42 @@ h5 {
   margin: auto;
   background: white;
   padding: 10px;
-}
-.grouped {
+  line-height: 1.5px;
   display: flex;
-  max-width: 300px;
 }
+
 .top-content {
-  display: flex;
   flex-direction: row;
 }
 .header {
   max-width: 200px;
-  display: flex;
 }
 title {
   color: black;
   font-size: 16px;
   font-family: "sans-serif";
-  box-sizing: border-box;
 }
 nav a {
   text-decoration: none;
   color: gray;
-  display: flex;
-  flex-direction: row;
-  margin: 10px;
 }
-
-.nav {
+div.nav {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
 }
-
+.logo {
+}
 .get-started {
-  display: flex;
   color: black;
   text-decoration: none;
   border: 2px solid black;
+  height: 30px;
   text-align: center;
-  box-sizing: border-box;
+  width: 150px;
+  background-color: white;
+  font-size: 16px;
+  margin-top: 30px;
 }
 
 .innovations {
@@ -204,30 +201,31 @@ nav a {
 h1 {
   color: black;
   font-size: 50px;
-  display: flex;
-  text-align: center;
 }
 hr {
-  margin: 2%;
+  margin: 1%;
 }
 .middle-img {
-  text-align: center;
+  justify-content: center;
+  width: 100%;
 }
 .column-top {
-  display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  width: 46%;
+  margin: 30px 3% 30px 0;
 }
 
 .column-bottom {
-  display: flex;
-  width: 31%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 30%;
+  margin-right: 2%;
   padding: 10px;
 }
 
 .fifty {
   display: flex;
-  flex-direction: row;
-  align-items: inherit;
 }
 
 .address {
@@ -262,7 +260,7 @@ hr {
   .container {
     border: 5px solid red;
   }
-  .great-logo {
+  .logo {
     display: flex;
     align-items: center;
   }
